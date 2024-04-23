@@ -538,8 +538,6 @@ function install() {
       }).then(() => {
         Notification.show('success', 'Server Installation Complete');
         busy = false;
-        installbtn.innerText = 'Install';
-        installbtn.style.color = '#dcdcdc';
       }).catch((err) => {
         if (err) {
           uninstallbtn.disabled = false;
@@ -576,6 +574,8 @@ function install() {
           Notification.show('success', 'Client Installation Complete');
           busy = false;
           uninstallbtn.disabled = false;
+          installbtn.innerText = 'Install';
+          installbtn.style.color = '#dcdcdc';
         }).catch((err) => {
           if (err) {}
         }).finally(() => {
