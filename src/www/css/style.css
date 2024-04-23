@@ -18,7 +18,7 @@
 ::placeholder {
     font-style: italic;
     font-size: 14px;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     opacity: 0.5;
 }
 html {
