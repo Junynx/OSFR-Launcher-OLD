@@ -522,6 +522,8 @@ function install() {
   disableAll();
   // Downloading server files
   Notification.show('warn', 'Installing Necessary Files');
+  installbtn.innerText = 'Installing...';
+  installbtn.style.color = '#ed6a5e';
   download({
     url: 'https://osfr.editz.dev/Server.zip',
     fileName: 'Server.zip',

@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "bestzip": "^2.2.1",
-    "electron": "^29.1.6",
+    "electron": "^30.0.1",
     "electron-packager": "^17.1.2",
     "rimraf": "^5.0.5",
     "uglifyjs-folder": "^3.3.0"
